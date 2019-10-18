@@ -3,9 +3,9 @@
   #include <avr/power.h>
 #endif
 
-#define PIN 0
+#define PIN 10
 
-#define NUM_LEDS 8
+#define NUM_LEDS 6
 
 #define BRIGHTNESS 250
 
@@ -258,4 +258,3 @@ uint8_t green(uint32_t c) {
 uint8_t blue(uint32_t c) {
   return (c);
 }
-
